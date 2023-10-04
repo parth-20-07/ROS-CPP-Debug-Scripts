@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/root/catkin_ws/devel/include/**",
+        "/root/catkin_ws/devel/**",
+        "/root/catkin_ws/devel/.private/emv_lio/**",
+        "/root/catkin_ws/src/emv-lio/include/**",
+        "/root/catkin_ws/devel/lib/emv_lio/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
