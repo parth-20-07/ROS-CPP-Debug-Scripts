@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "catkin_build",
+			"type": "shell",
+			"command": "catkin",
+			"args": [
+				"build",
+				"-DCMAKE_BUILD_TYPE=Debug",
+				"-DNUM_OF_CAM=4"
+			],
+			"problemMatcher": [
+				"$catkin-gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "make_debug",
+			"dependsOn": [
+				"catkin_build"
+				// You can add other tasks to depend on if necessary
+			],
+			"dependsOrder": "sequence"
+		}
+	]
+}
